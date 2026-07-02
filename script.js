@@ -5,10 +5,16 @@ function createGrid() {
     for (let i = 0; i < 256; i++) {
         //create div each iteration
         const gridItem = document.createElement('div');
-        container.appendChild(gridItem);
+        container.appendChild(gridItem); 
+        gridItem.addEventListener('mouseover', function (e) {
+            e.target.classList.add('hovered');
+        })
     }
+
 }
 
 createGrid();
+
+
 
 

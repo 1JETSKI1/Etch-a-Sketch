@@ -11,4 +11,9 @@
     border : 1px solid black;
     box-sizing : border-box;
 }
+.grid-container div.hovered {
+    background-color : blue;
+}
+
+
 
