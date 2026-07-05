@@ -7,7 +7,7 @@
 .grid-container div {
     height : 60px;
     width : 60px;
-    background-color : red;
+    background-color : white;
     border : 1px solid black;
     box-sizing : border-box;
 }
